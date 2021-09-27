@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+  background-image: url(https://cdn.suwalls.com/wallpapers/games/are-you-still-there-portal-2-51685-1920x1080.jpg);
+  /*background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);*/
+  font-family: 'Roboto', sans-serif;
+}
+
+.dark{
+  /*background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);*/
+  background-image: url(https://wallpapercave.com/wp/wp2963841.jpg);
+}
+
+.dark .conteiner{
+  background: #333439;
+  color: #F6F6F6;
+}
+
+.dark .projetos{
+  color: #1C1C1C;
+}
+
+.dark .projetos button{
+  background: #1C1C1C;
+  color: #ffffff;
+  border: 2px solid #F7F7F7;
+}
+
+.img-title1{
+  /*filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));*/
+  position:relative;
+  top:0px;
+  left:0px;
+  width: 250px;
+  height: 300px;
+}
+.img-title2{
+  /*filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));*/
+  position:absolute;
+  top:165px;
+  left:165px;
+  width: 175px;
+  height: 210px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px 3px white;
+}
+
+.conteiner{
+  background: #ECF4FF;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  border-radius: 20px;
+  margin: 100px;
+  padding: 20px;
+}
+
+.cabecalho{
+  display:flex;
+  justify-content: space-between;
+}
+
+.perfil{
+  display: flex;
+}
+
+.titulo{
+  margin-left: 30px;
+}
+
+.titulo h1{
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3{
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button{
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ECF4FF;
+  border: 2px solid #0E1D2F;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+
+.projetos{
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+  /*background-image:url(https://i.pinimg.com/originals/da/14/7c/da147c66aa713bb876466d76ea18830b.jpg);*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  margin-top: 60px;
+  padding: 20px;
+}
+
+.projeto-titulo{
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.labs{
+  top:0px;
+  left:0px;
+  width: 300px;
+  height: 100px;
+  filter: contrast(0%) brightness(0%);
+}
+
+.projeto-item{
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+.projeto-item a{
+  color: #1C1C1C;
+  text-decoration: none;
+}
